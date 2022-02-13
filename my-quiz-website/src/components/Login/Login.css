@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#root,html{
+    background-color:#eaeef3;
+}
+
+.login-div h2{
+    font-size: 20px;
+    color: darkslategrey;
+}
+.login-div h1{
+    color:red;
+    font-size: 50px;
+    letter-spacing: 2px;
+    margin-left:-15px;
+    padding-bottom: 10px;
+}
+.speaker{
+    margin-right: 10px;
+    transform: rotateZ(-15deg);
+}
+.login-div h5{
+    font-size: 15px;
+    color:darkgray;
+    padding-bottom: 10px;
+}
+
+.login-email{
+    display:block;
+    border-radius: 30px;
+    border: 1px solid darkgray;
+    width:50%;
+    height:35px;
+    margin:0 auto;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+.login-pass{
+    border-radius: 30px;
+    border: 1px solid darkgray;
+    width:50%;
+    height:35px;
+    margin-bottom: 20px;
+    padding: 0 10px;
+
+}
+.login-pass:focus,.login-email:focus{
+    outline:none;
+}
+.login-button{
+    width: 50%;
+    padding:7px 0 ;
+    border:none;
+    border-radius: 30px !important;
+    color:#fff;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #ea3522, #e83123, #e72e24, #e52a25, #e32626);
+    box-shadow:  0px 0px 23px -6px rgba(0,0,0,0.51);
+}
+.login-register{
+    margin:30px;
+    color:darkgray;
+}
+.login-h6{
+    margin:30px;
+    color:darkgray;
+}
+.login-socials li{
+    display:inline;
+    margin-right: 30px;
+    border-radius:50%;
+    box-shadow:  0px 0px 23px -6px rgba(0,0,0,1);
+    text-align: center;
+    justify-content: center;
+}
+.brand{
+    background-image: url("./download.jpg");
+    background-repeat: no-repeat;
+    background-size:650px;
+    filter:hue-rotate(195deg);
+}
+@media screen and (max-width:1025px){
+    .brand{ 
+        background-size: 500px 510px;
+    }   
+}
+@media screen and (max-width:769px){
+    .brand{ 
+        background-size: 390px 450px;
+    }    
+}
+@media screen and (max-width:630px){
+    .brand{ 
+        display:none;
+    }   
+}
